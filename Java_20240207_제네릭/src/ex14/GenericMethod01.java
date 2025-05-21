@@ -41,7 +41,7 @@ public class GenericMethod01 {
 
 		Box<Object> obox = new Box<Object>();
 		obox.set("설날");
-		Unboxer.peekBox(dbox);
+		Unboxer.peekBox(obox);
 		
 		Box<Object> obox2 = new Box();
 		obox2.set(false);
